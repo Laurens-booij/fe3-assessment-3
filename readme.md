@@ -11,7 +11,7 @@ The map shows a circle at the position of every measuring station. If a user hov
 The chart shows the air quality index for the component NO2. It shows the values from one week, with two measurements being included in a day.
 
 ## Process
-The line chart is based on [this chart][line chart][Mike Bostock][Bostock]. I got a map image of Amsterdam from [https://mapbox.com][map].
+The line chart is based on [this chart][line chart] by [Mike Bostock][Bostock]. I got a map image of Amsterdam from [https://mapbox.com][map].
 
 I started from scratch by writing the code to load and clean my data. After that I loaded the line chart. Then I formatted the data to make it compatible with the line chart.
 
