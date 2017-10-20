@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: #191a1a;
+}
+
+.map-container {
+  background-image: url("images/map.png"); /* Image source: https://www.mapbox.com*/
+  background-size: cover;
+  height: 695px;
+  width: 1000px;
+}
+
+.svg-map{
+  height: 695px;
+  width: 1000px;
+}
+
+.linechart {
+  align-self: flex-start;
+  background-color: rgba(230, 230, 230, 0.9);
+}
+
+
+circle {
+  stroke: #f89521;
+  stroke-width: 5px;
+  fill: none;
+}
+
+circle:hover {
+  fill: rgba(135,135,135,0.9);
+}
+
+.tool-tip {
+  position: absolute;
+  visibility: hidden;
+  color: #ebebeb;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 6px;
+  font-size: 1em;
+  font-family: Helvetica;
+}
